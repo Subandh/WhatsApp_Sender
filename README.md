@@ -21,7 +21,6 @@ This is a prototype/demo system for learning automation, API integration, and ba
 * MySQL
 * Twilio WhatsApp Sandbox
 * ngrok (for webhook testing)
-* dotenv
 
 ---
 
@@ -235,12 +234,13 @@ Body:
 ```
 {
   "user_id": 1,
-  "message": "Test WhatsApp message",
+  "message": "Communication Succesfull",
   "duration_type": "instant"
 }
 ```
 
 You should receive the message on your WhatsApp.
+<img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/8f684d59-b02c-4568-9558-064a6e2bd3e6" />
 
 ---
 
